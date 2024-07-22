@@ -1,0 +1,99 @@
+/*Reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/*
+## Colores
+
+### Primarios
+
+- Tomate: #ff6347
+
+### Neutros
+
+- Gris Pizarra Oscuro: #2d2a36
+- Gris Carbón: #3b3c45
+- Gris: #97979e
+- Blanco: #ffffff
+
+//media queries
+- Móvil: 375px
+- Escritorio: 1440px
+
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /*fonts*/
+
+body{
+    background-color:rgb(187, 187, 241) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px; /*ojo*/
+}
+
+p ul li{
+    font-size: 1rem;
+}
+
+
+h1,h2{
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#form-wrapper {
+    
+    background-color: rgb(240, 240, 245);
+    margin-top: 20px;
+    width: 700px;
+    height: 450px;
+    display: flex;
+    border-radius: 7px;
+    padding: 10px;
+    
+}
+
+#sign-title{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+#form-wrapper p{
+    font-family: "Roboto",sans-serif ;
+    font-weight: 400;
+}
+
+.r-card{
+    margin-left:20px ;
+    margin-top:15px;
+    width: 55%;
+}
+
+ul{
+    list-style-image: url(resources/icon-success.svg);
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    
+}
+
+.l-card{
+    margin-right: 20px;
+    
+}
+
+.l-card .graphic{
+    width: 100%;
+    
+    
+}
+
